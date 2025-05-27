@@ -1,0 +1,33 @@
+Halt & Fear Zones – Spectrum Defense Theory
+
+1. Cold Danger (“Alarm”) Spectrum
+   1.1 Safe Zone (Light Violet)
+       – Color: lavender (200,180,255)
+       – System state: stable, low risk, continue monitoring
+
+   1.2 Trigger Zone (Violet)
+       – Color: violet (156,122,255)
+       – System state: rising threat, prepare for defensive action
+
+   1.3 Alarm Zone (Ultraviolet / White Flash)
+       – Color: symbolic (invisible UV or bright white)
+       – System state: external warning mode – flashing lights, alarm tones, active signaling
+
+2. Hot Danger (“Shutdown”) Spectrum
+   2.1 Safe Zone (Chartreuse)
+       – Color: chartreuse (180,255,90)
+       – System state: nominal, system operating optimally
+
+   2.2 Trigger Zone (Amber)
+       – Color: amber (218,148,65)
+       – System state: rising load or localized error, reduce speed or output
+
+   2.3 Shutdown Zone (Red → Infrared → Black)
+       – Color: red (255,40,40) fading toward infrared or black
+       – System state: unmanageable threat, full halt, safe-mode or power-down
+
+3. Usage Notes
+   – **Cold danger spectrum** corresponds to the **fear vector** (emotion = +1), driving **alert and reaction**  
+   – **Hot danger spectrum** corresponds to the **anger vector** (emotion = –1), driving **shutdown and disengagement**  
+   – Both spectrums can operate simultaneously: one handles **external signaling**, the other **internal protection**  
+   – Repeated or overlapping triggers in both zones may escalate to full emergency stop or reboot behavior
