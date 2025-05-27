@@ -1,7 +1,7 @@
-//output == "random digital emotions as colors and sound" 
+#output == "random digital emotions as colors and sound :)" 
 
-//first paste in cmd or terminal: 
-//pip install pygame numpy
+#first paste in cmd or terminal: 
+#pip install pygame numpy
 
 import random
 import time
@@ -25,9 +25,9 @@ note_freqs = {
 # Corrected: low notes = violet, high notes = red
 color_map = {
     'C': (110, 70, 175),      # Violet – lowest
-    'D': (145, 162, 132),     # Olive-teal
+    'D': (145, 162, 132),     # Olive-teal - (lowest+middle)/2
     'E': (180, 255, 90),      # Chartreuse – middle
-    'G': (218, 150, 70),      # Amber
+    'G': (218, 150, 70),      # Amber - (highest+middle)/2
     'A': (255, 40, 40)        # Red – highest
 }
 
