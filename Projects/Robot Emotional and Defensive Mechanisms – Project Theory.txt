@@ -46,8 +46,8 @@ b. External alert (e.g. obstacle, pressure spike, intrusion)
 
 7. Double-Safety Logic  
 Combining:
-- **decision bit**: 0 = wait, 1 = ready  
-- **emotion trit**: −1 = anger, 0 = joy, +1 = fear
+- decision bit: 0 = wait, 1 = ready  
+- emotion trit: −1 = anger, 0 = joy, +1 = fear
 
 Logic Table:  
 - Decision = 0 → no action  
@@ -67,10 +67,46 @@ b. Object detected → Fear → blink violet, pause motion, notify
 c. Normal workflow → Joy → chartreuse glow, operate at full speed
 
 10. Extreme Emotional Actions  
-In critical or extreme cases, emotional states may evolve into physical **actions**:
-– **Fear state** may activate **ultraviolet (UV) flash** signaling: a high-frequency alert used to warn humans or repel other systems  
-– **Anger state** may trigger a descent into **infrared (IR) signaling**, representing full disengagement or withdrawal into low-energy standby mode  
+In critical or extreme cases, emotional states may evolve into physical actions:
+– Fear state may activate ultraviolet (UV) flash signaling: a high-frequency alert used to warn humans or repel other systems  
+– Anger state may trigger a descent into infrared (IR) signaling, representing full disengagement or withdrawal into low-energy standby mode  
 These outputs can interact with the environment, acting as non-verbal emergency cues or passive defenses.
+
+Here’s your addon to insert as a new section (e.g. after paragraph 7 or at the end):
+
+---
+
+Addon – 5 Basic States of Operation
+
+Robotic emotional logic can be broken down into five primary operational states:
+
+1. Neutral (0) – Joy
+   → Default, optimal operating mode
+   → System runs at full capacity with no emotional interference
+   → Color: chartreuse
+
+2. Trigger Zone – Conditional Action
+   → System detects a possible change or risk
+   → Action is executed only if both logic (decision = 1) and emotion permit (emotion ≠ −1)
+   → Colors: amber or olive-teal depending on context
+
+3. Fear (+1) – Alarm Mode
+   → Emotionally elevated but still in control
+   → System activates warnings (lights, sound), reduces power
+   → May use violet-to-UV light or audio tones as alert signals
+
+4. Anger (−1) – Shutdown Mode
+   → Emotionally critical state; the system cannot continue safely
+   → Immediate halt, shutdown routines begin
+   → May descend into infrared signaling, fade LEDs to black, and enter low-energy mode
+
+5. Extreme Action States
+   → When extreme emotions persist or escalate, robot behavior expands into environmental interaction:
+   – Fear → Alarm/UV: high-energy light bursts, audible alarms
+   – Anger → IR modes: full disengagement, darkening, silence
+
+These five levels provide a clear emotional-operational framework for layered response and safety.
+
 
 End of theory.
 ```
