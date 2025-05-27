@@ -1,11 +1,11 @@
 Quantum Emotional Logic – Two-Bit Defense Layer
 
 1. Dual-Bit Model
-   • Logical bit   = core decision channel
+   • Logical bit   = core decision channel = static system state 
        0 = passive (wait)
        1 = active  (execute)
 
-   • Emotional bit = system state check
+   • Emotional bit = system state check = dynamic systems state 
        + = operate  (approve)
        – = shutdown (abort)
 
