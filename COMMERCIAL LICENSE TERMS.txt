@@ -1,6 +1,6 @@
 COMMERCIAL LICENSE TERMS
 
-Copyright © 2025 Your Name
+Copyright © 2025 Konstantrinas Jefimovas 
 
 1. Definitions
    “Covered Software” means the source code and associated documentation in this repository.
@@ -10,7 +10,7 @@ Copyright © 2025 Your Name
    Subject to payment of royalties as set forth in Section 3, Licensor hereby grants Licensee a perpetual, non-exclusive, worldwide license to reproduce, modify, distribute, and sublicense the Covered Software as part of Licensee’s commercial products or services.
 
 3. Royalty Payments
-   Licensee shall pay Licensor a royalty equal to 2 % of net revenues derived from Licensee’s Commercial Use of the Covered Software, payable quarterly within thirty (30) days after the end of each calendar quarter.
+   Licensee shall pay Licensor a royalty equal to 2.5% of net revenues derived from Licensee’s Commercial Use of the Covered Software, payable quarterly within thirty (30) days after the end of each calendar quarter.
 
 4. Reporting
    Within thirty (30) days after each calendar quarter, Licensee shall deliver to Licensor a written report showing the calculation of net revenues and the amount owed, accompanied by payment of the royalty due.
