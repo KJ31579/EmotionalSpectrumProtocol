@@ -21,4 +21,17 @@ Emotional Spectrum Protocol – Theory Overview
    - Anger (+1)     → right-edge of spectrum → red       (255,40,40)
    - Fear  (−1)     → left-edge of spectrum  → deep purple (110,70,175)
 
+6. Border States:
+
+   * Hostility – midpoint between Anger and Joy, shown as amber (RGB 218,148,65)
+   * Thrill    – midpoint between Fear and Joy, shown as olive-teal (RGB 145,162,132)
+
+7. Five Fundamental States:
+
+   * Joy       (neutral)             → chartreuse    (180,255, 90)
+   * Anger     (extreme positive)    → red           (255, 40, 40)
+   * Fear      (extreme negative)    → deep purple   (110, 70,175)
+   * Hostility (borderline anger/joy)→ amber         (218,148, 65)
+   * Thrill    (borderline joy/fear) → olive-teal     (145,162,132)
+
 Continue with implementation details or examples in subsequent files.
