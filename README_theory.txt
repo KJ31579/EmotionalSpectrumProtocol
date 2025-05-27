@@ -22,8 +22,8 @@ Emotional Spectrum Protocol – Theory Overview
    - Anger (extreme low frequency)    → red           (RGB 255,40,40)
 
 6. Border States (Transitional Zones)
-   - Thrill    – midpoint between Joy and Fear   → olive-teal (RGB 145,162,132)
-   - Hostility – midpoint between Joy and Anger  → amber      (RGB 218,148,65)
+   - Thrill    – midpoint between Joy and Anger → olive-teal (RGB 145,162,132)
+   - Hostility – midpoint between Joy and Fear  → amber      (RGB 218,148,65)
 
 7. Five Fundamental States
    - Joy       → stable, neutral operation      → chartreuse
