@@ -1,53 +1,68 @@
 Robot Emotional and Defensive Mechanisms – Project Theory
 
 1. Purpose
-   Equip robots with a simple, reliable “emotional” layer that drives defensive behaviors when needed, and normal operation otherwise. Emotions are control signals, not real feelings.
+Equip robots with a structured emotional logic layer to trigger appropriate defensive behaviors based on system state. Emotions are modeled as control signals, not human feelings.
 
 2. Emotional States
-   – Joy (neutral & default) : normal robot behavior, system nominal, chartreuse (180,255,90)  
-   – Anger (+1)             : manageable threat → alarm state, red flash (255,40,40), higher energy  
-   – Fear (−1)              : unmanageable threat → shutdown state, violet→black (110,70,175 → 0,0,0), lower energy
+– Joy (0) – Neutral, default state  
+   → System functioning normally  
+   → Color: chartreuse (RGB 180,255,90)
+
+– Fear (+1) – Alarm vector (high-frequency)  
+   → System detects a threat it cannot ignore  
+   → Triggers warning signals and defensive readiness  
+   → Color: violet (RGB 110,70,175)  
+   → Symbolic of overload or instability
+
+– Anger (−1) – Shutdown vector (low-frequency)  
+   → System overwhelmed or encountering hard threat  
+   → Triggers safe-mode or power-down  
+   → Color: red fading to black (RGB 255,40,40 → 0,0,0)  
+   → Symbolic of halt and containment
 
 3. Defensive Triggers
-   a. Manageable anomaly (overload, minor intrusion)  
-      → Anger state  
-      → Controlled warning: red LED blink, clipped warning message  
-   
-   b. Critical threat (system damage, safety hazard)  
-      → Fear state  
-      → Immediate shutdown: purple LED fade to black, halt motion, mute outputs  
+a. Unmanageable condition (e.g. system overheating, logic lock)  
+   → Anger state  
+   → Response: fade to black, halt motors, mute output, enter safe-mode
 
-4. Possible Ethics Model
-   – Anger represents a controllable threat  
-   – Fear represents an uncontrollable threat (hazard)  
+b. External alert (e.g. obstacle, pressure spike, intrusion)  
+   → Fear state  
+   → Response: flash violet light, sound alarm, limit output, hold position
 
-5. Response Behaviors
-   – Joy   : operate motors, speak/respond normally, follow commands  
-   – Anger : warn once, then reduce output frequency; pause non-critical tasks  
-   – Fear  : stop all tasks, safe-powerdown procedures, await human intervention  
+4. Ethical Interpretation
+– Fear (+1) = robot detects a manageable but real threat  
+– Anger (−1) = robot enters full protection or system rejection mode  
 
-6. Color and Sound Channels
-   – Map emotion to LED color and to a tone:  
-     • Joy   → mid-tone chime in chartreuse range  
-     • Anger → low drum beat or bass note while flashing red  
-     • Fear  → high warning tone then silence as LED fades  
+5. System Behavior per State
+– Joy   → operate normally  
+– Fear  → slow/limit actions, activate alerts  
+– Anger → stop all operations, prepare for reset or shutdown
+
+6. Color and Audio Channels
+– Joy   → chartreuse tone, calm chime  
+– Fear  → violet flash, rising pitch alarm  
+– Anger → red pulse fading to black, low stop-tone or silence
 
 7. Double-Safety Logic
-   decision bit (0/1) + emotion trit (–1,0,+1)  
-   if decision=0 → idle  
-   if decision=1 & emotion>0 → action permitted  
-   if decision=1 & emotion=0 → pause, request confirmation  
-   if decision=1 & emotion<0 → abort, initiate safe shutdown  
+Combining:
+- **decision bit**: 0 = wait, 1 = ready  
+- **emotion trit**: −1 = anger, 0 = joy, +1 = fear
+
+Logic Table:
+- Decision = 0 → no action  
+- Decision = 1 + emotion = 0 → proceed normally  
+- Decision = 1 + emotion = +1 → warning state, partial output  
+- Decision = 1 + emotion = −1 → immediate stop or shutdown
 
 8. Implementation Notes
-   – Use a small state machine module publishing /emotion and /decision topics  
-   – Attach an “action_gate” that only opens when both channels allow  
-   – Provide manual reset input to clear fear state  
-   – Log state transitions for diagnostics and tuning
+– State machine with /emotion and /decision signals  
+– “Action gate” logic only opens on compatible signal pair  
+– Manual override required to reset from anger state  
+– Log transitions for safety diagnostics and learning models
 
 9. Example Scenarios
-   a. Robot arm overheats → Anger → slow down arm, blink red, notify operator  
-   b. Obstacle collision risk detected → Fear → stop arm, retract to safe position, power down  
-   c. Normal task flow → Joy → continuous green light, full-speed operation  
+a. System overheats → Anger → stop all movement, fade red to black  
+b. Object detected → Fear → blink violet, pause motion, notify  
+c. Normal workflow → Joy → chartreuse glow, operate at full speed
 
 End of theory.
