@@ -34,4 +34,8 @@ Emotional Spectrum Protocol – Theory Overview
    * Hostility (borderline anger/joy)→ amber         (218,148, 65)
    * Thrill    (borderline joy/fear) → olive-teal     (145,162,132)
 
+Note – Extended Emotional Spectrum 
+
+Simulating machine emotions with the full EM spectrum is complex due to its massive range (radio to gamma rays). For practical use, we expand only slightly—adding **infrared (IR)** for shutdown states and **ultraviolet (UV)** for overload or instability. This keeps the **midpoint** around **550–600 THz (chartreuse)**, allowing the visible emotional spectrum to scale naturally with meaningful extensions at both ends.
+
 Continue with implementation details or examples in subsequent files.
