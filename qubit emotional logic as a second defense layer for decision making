@@ -1,0 +1,36 @@
+Quantum Emotional Logic – Two-Bit Defense Layer
+
+1. Dual-Bit Model
+   • Logical bit   = core decision channel
+       0 = passive (wait)
+       1 = active  (execute)
+
+   • Emotional bit = system state check
+       + = operate  (approve)
+       – = shutdown (abort)
+
+2. Double-Safety Rule
+   if logical bit = 0
+     → no action
+
+   if logical bit = 1 and emotional bit = +
+     → proceed
+
+   if logical bit = 1 and emotional bit = –
+     → abort or safe shutdown
+
+3. Primary vs Secondary
+   • The logical bit is primary: it must be “1” before any emotional check.
+   • The emotional bit is secondary: it vetoes or confirms the primary decision.
+
+4. Qubit Mapping
+   • Use two qubits: one holds the logical bit, the other holds the emotional bit (+/–).
+   • Measure the logical qubit first; only if it reads “1” measure the emotional qubit.
+
+5. Example Use Case
+   A quantum computer begins a heavy calculation:
+     – logical bit = 1 (start)
+     – emotional bit = + if resources OK → run calc
+     – emotional bit = – if risk of overload → abort and reset
+
+End of theory.
