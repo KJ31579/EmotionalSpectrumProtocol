@@ -1,9 +1,3 @@
-Perfect idea—here’s the **updated version** with **Paragraph 10** added at the end, expanding into extreme behaviors using IR and UV signaling:
-
----
-
-**File name:** `robot_emotional_defense_theory.txt`
-
 ```
 Robot Emotional and Defensive Mechanisms – Project Theory
 
