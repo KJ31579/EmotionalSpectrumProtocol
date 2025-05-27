@@ -5,3 +5,4 @@ Implementation & Projects
 3 Factory & robot examples – LED tower monitoring and robot safety behaviors
 4 Biofeedback & patient tools – real-time mood dashboard and wearable device
 5 Music & tuning tools – note-to-color visual music and color-based instrument tuner
+Others
