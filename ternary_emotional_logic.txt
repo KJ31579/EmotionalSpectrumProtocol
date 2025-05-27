@@ -7,7 +7,7 @@ Ternary Emotional Logic for AI
 
 2. Color Mapping
    - Fear  → deep purple (RGB 110, 70, 175)
-   - Joy   → chartreuse  (RGB 180, 255,  90)
+   - Joy   → chartreuse  (RGB 180, 255,  90) // = visible spectrum middle  
    - Anger → red         (RGB 255,  40,  40)
 
 3. Decision Combination
