@@ -1,0 +1,27 @@
+Full Spectrum Theory – Expanded Model
+
+1. Base Visible Emotions
+   – Red       (255,  40,  40) → Anger (extreme output)
+   – Chartreuse(180, 255,  90) → Joy   (neutral/optimal)
+   – Violet    (110,  70, 175) → Fear  (extreme shutdown)
+
+2. Full-Range Extremes
+   – Black (  0,   0,   0) → Halt / system zero
+   – White (255, 255, 255)→ Full power / system max
+
+3. Middle Point
+   – In hue: chartreuse is the midpoint of red–violet on the visible wheel.
+   – In luminance (black–white range): mid-grey (128,128,128) marks pure neutrality across brightness.
+   – Combined neutral state: chartreuse at 50% brightness → (90,127,45)
+
+4. HSV Encoding
+   – Hue   = emotion type (red/joy/violet)
+   – Sat   = intensity or arousal (0–100%)
+   – Value = system power level (0=black … 100=white)
+
+5. Usage
+   – Any sensor or logic output mapped into HSV then converted to RGB.
+   – Black/white extremes guard against underflow or overflow states.
+   – Mid-grey or half-bright chartreuse ensure a clear “balanced” signal.
+
+End of theory.
