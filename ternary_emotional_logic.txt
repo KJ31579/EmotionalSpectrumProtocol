@@ -33,9 +33,9 @@ Ternary Emotional Logic for AI
      otherwise       → emotion =  0
 
 5. Simple Flow Examples
-   – user insults → emotion=+1, decision=1 → controlled warning or halt
-   – user polite  → emotion=0,  decision=1 → normal assist or clarifying question
-   – user threat  → emotion=–1, decision=1 → immediate shutdown or safe-fail
+   – User shows aggression → emotion = –1, decision = 1 → immediate shutdown or disengage
+   – User behaves normally → emotion =  0, decision = 1 → proceed with neutral response
+   – User triggers alert    → emotion = +1, decision = 1 → warning mode, limited or delayed action
 
 6. Optional Blends
    for intermediate scores (–0.6<score<0.6)
