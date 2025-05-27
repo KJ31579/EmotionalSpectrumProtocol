@@ -1,3 +1,5 @@
+//output == "random digital emotions as colors and sound" 
+
 //first paste in cmd or terminal: 
 //pip install pygame numpy
 
