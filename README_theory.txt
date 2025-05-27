@@ -10,7 +10,7 @@ Emotional Spectrum Protocol – Theory Overview
 
 3. Basic Palette
    - Based on three anchor colors, equally spaced on the visible light spectrum.
-   - These anchors represent core emotional states: joy, fear, and anger.
+   - These anchors represent core emotional states: joy, fear, and anger as safe (normal = joy) and unsafe (fight or flight) states. 
 
 4. Spectrum Division
    - Divide the hue wheel into three equal sectors: warm edge, middle, cold edge.
