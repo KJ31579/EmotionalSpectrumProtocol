@@ -5,7 +5,7 @@ Quantum Emotional Logic – Two-Bit Defense Layer
        0 = passive (wait)
        1 = active  (execute)
 
-   • Emotional bit = system state check = dynamic systems state 
+   • Emotional bit = system state check = dynamic system state 
        + = operate  (approve)
        – = shutdown (abort)
 
