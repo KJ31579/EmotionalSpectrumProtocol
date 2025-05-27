@@ -20,13 +20,13 @@ note_freqs = {
     'A': 440.00
 }
 
-# Corresponding RGB colors
+# Corrected: low notes = violet, high notes = red
 color_map = {
-    'C': (255, 40, 40),       # Red
-    'D': (218, 150, 70),      # Amber
-    'E': (180, 255, 90),      # Chartreuse
-    'G': (145, 162, 132),     # Olive-teal
-    'A': (110, 70, 175)       # Violet
+    'C': (110, 70, 175),      # Violet – lowest
+    'D': (145, 162, 132),     # Olive-teal
+    'E': (180, 255, 90),      # Chartreuse – middle
+    'G': (218, 150, 70),      # Amber
+    'A': (255, 40, 40)        # Red – highest
 }
 
 def generate_tone(frequency, duration=0.5, sample_rate=22050):
