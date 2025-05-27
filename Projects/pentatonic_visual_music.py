@@ -41,7 +41,7 @@ def generate_tone(frequency, duration=0.5, sample_rate=22050):
     return pygame.sndarray.make_sound(stereo_waveform)
 
 
-sequence = [random.choice(list(note_freqs.keys())) for _ in range(10)]
+sequence = [random.choice(list(note_freqs.keys())) for _ in range(100)]
 
 for note in sequence:
     freq = note_freqs[note]
