@@ -1,6 +1,6 @@
 Halt & Fear Zones – Spectrum Defense Theory
 
-1. Cold Danger (“Alarm”) Spectrum
+1. Hot Danger (“Alarm”) Spectrum
    1.1 Safe Zone (Light Violet)
        – Color: lavender (200,180,255)
        – System state: stable, low risk, continue monitoring
@@ -13,7 +13,7 @@ Halt & Fear Zones – Spectrum Defense Theory
        – Color: symbolic (invisible UV or bright white)
        – System state: external warning mode – flashing lights, alarm tones, active signaling
 
-2. Hot Danger (“Shutdown”) Spectrum
+2. Cold Danger (“Shutdown”) Spectrum
    2.1 Safe Zone (Chartreuse)
        – Color: chartreuse (180,255,90)
        – System state: nominal, system operating optimally
