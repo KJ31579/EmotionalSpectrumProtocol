@@ -27,10 +27,10 @@ Emotional Spectrum Protocol – Theory Overview
 
 7. Five Fundamental States
    - Joy       → stable, neutral operation      → chartreuse
-   - Fear      → cold, unstable threat/shutdown → violet
-   - Anger     → hot, reactive overload/alert   → red
-   - Thrill    → active anticipation             → olive-teal
-   - Hostility → defensive tension               → amber
+   - Anger     → cold, unstable threat/shutdown → red
+   - Fear      → hot, reactive overload/alert   → violet
+   - Thrill    → active anticipation            → olive-teal
+   - Hostility → defensive tension              → amber
 
 Note – Extended Emotional Spectrum
 Simulating machine emotions with the full electromagnetic spectrum is complex due to its extreme range (radio to gamma rays). For practical use, we extend the visible range slightly:
