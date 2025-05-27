@@ -1,0 +1,25 @@
+COMMERCIAL LICENSE TERMS
+
+Copyright © 2025 Your Name
+
+1. Definitions
+   “Covered Software” means the source code and associated documentation in this repository.
+   “Commercial Use” means any use of the Covered Software in a product or service for which money is charged, directly or indirectly.
+
+2. Grant of License
+   Subject to payment of royalties as set forth in Section 3, Licensor hereby grants Licensee a perpetual, non-exclusive, worldwide license to reproduce, modify, distribute, and sublicense the Covered Software as part of Licensee’s commercial products or services.
+
+3. Royalty Payments
+   Licensee shall pay Licensor a royalty equal to 2 % of net revenues derived from Licensee’s Commercial Use of the Covered Software, payable quarterly within thirty (30) days after the end of each calendar quarter.
+
+4. Reporting
+   Within thirty (30) days after each calendar quarter, Licensee shall deliver to Licensor a written report showing the calculation of net revenues and the amount owed, accompanied by payment of the royalty due.
+
+5. Attribution
+   Licensee shall include the following notice in all end-user documentation and “About” screens of any product or service that incorporates the Covered Software:
+   “Portions © 2025 Your Name. All rights reserved.”
+
+6. Termination
+   If Licensee fails to make any royalty payment when due or breaches any term of this commercial license, Licensor may terminate this license upon written notice. Upon termination, Licensee must cease all Commercial Use of the Covered Software.
+
+––––––––––––––––––––––––––––––––––––––––––
