@@ -72,8 +72,6 @@ In critical or extreme cases, emotional states may evolve into physical actions:
 – Anger state may trigger a descent into infrared (IR) signaling, representing full disengagement or withdrawal into low-energy standby mode  
 These outputs can interact with the environment, acting as non-verbal emergency cues or passive defenses.
 
-Here’s your addon to insert as a new section (e.g. after paragraph 7 or at the end):
-
 ---
 
 Addon – 5 Basic States of Operation
