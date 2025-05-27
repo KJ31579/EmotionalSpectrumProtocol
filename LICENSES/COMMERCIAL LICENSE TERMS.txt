@@ -1,6 +1,6 @@
 COMMERCIAL LICENSE TERMS
 
-Copyright © 2025 Konstantrinas Jefimovas 
+Copyright © 2025 Konstantinas Jefimovas 
 
 1. Definitions
    “Covered Software” means the source code and associated documentation in this repository.
